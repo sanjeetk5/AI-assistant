@@ -55,8 +55,8 @@ const ContextProvider = (props) => {
       const nextword = newResponseArray[i];
       delayPara(i, nextword + " ");
     }
-    console.log("showResult:", showResult);
-    console.log("resultData:", resultData);
+    // console.log("showResult:", showResult);
+    // console.log("resultData:", resultData);
 
     setLoading(false);
     setInput("");
